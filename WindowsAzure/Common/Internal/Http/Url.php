@@ -23,7 +23,7 @@
  */
  
 namespace WindowsAzure\Common\Internal\Http;
-require_once 'Net/URL2.php';
+// require_once 'Net/URL2.php';
 use WindowsAzure\Common\Internal\Validate;
 use WindowsAzure\Common\Internal\Resources;
 use WindowsAzure\Common\Internal\Http\IUrl;

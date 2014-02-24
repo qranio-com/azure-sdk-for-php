@@ -23,7 +23,7 @@
  */
  
 namespace WindowsAzure\Table\Models;
-require_once 'HTTP/Request2/Response.php';
+// require_once 'HTTP/Request2/Response.php';
 use WindowsAzure\Common\Internal\Resources;
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\Common\Internal\Http\HttpClient;

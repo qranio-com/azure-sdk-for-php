@@ -1,5 +1,5 @@
 {
-    "name": "microsoft/windowsazure",
+    "name": "qranio/windowsazure",
     "description": "This project provides a set of PHP client libraries that make it easy to access Windows Azure tables, blobs, queues, service runtime and service management APIs.",
     "keywords": [
         "php",
@@ -14,35 +14,11 @@
         }
     ],
     "require": {
-        "pear-pear/HTTP_Request2": "v2.2.1",
-        "pear-pear/Mail_Mime": "*",
-        "pear-pear/Mail_mimeDecode": "*"
+        "qranio/azure-sdk-pear-deps": "v1.0.0"
     },
     "autoload": {
         "psr-0": {
             "WindowsAzure\\": ""
         }
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "pear-pear/HTTP_Request2",
-                "version": "v2.2.1",
-                "dist": {
-                    "url": "https://github.com/pear/HTTP_Request2/archive/v2.2.1.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/pear/HTTP_Request2/",
-                    "type": "git",
-                    "reference": "tag/v2.2.1"
-                }
-            }
-        },
-        {
-            "type": "pear",
-            "url": "http://pear.php.net"
-        }
-    ]
+    }
 }

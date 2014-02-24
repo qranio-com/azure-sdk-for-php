@@ -11,6 +11,10 @@
         {
             "name": "Azure PHP SDK",
             "email": "azurephpsdk@microsoft.com"
+        },
+        {
+            "name": "Qranio",
+            "email": "equipe@qranio.com"
         }
     ],
     "require": {
